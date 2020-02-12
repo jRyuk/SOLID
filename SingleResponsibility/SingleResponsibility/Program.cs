@@ -6,7 +6,10 @@ namespace SingleResponsibility
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Employee employee = new Employee("Jhon", "Developer", 21, 1500);
+            Console.WriteLine(employee);
+            employee.PayTaxes();
+            Console.ReadKey();
         }
     }
 }
