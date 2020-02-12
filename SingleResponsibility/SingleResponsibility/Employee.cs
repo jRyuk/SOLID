@@ -26,5 +26,18 @@ namespace SingleResponsibility
         {
             return $"{_name} {_workPosition} {_age} {_salary}";
         }
+
+
+        private decimal GetTaxes() {
+
+            return _salary * 0.35M;
+        }
+
+        public void PayTaxes()
+        {
+            decimal taxes = GetTaxes();
+
+            Console.WriteLine($"It has been paid {taxes} in taxes, by {_name}");
+        }
     }
 }
