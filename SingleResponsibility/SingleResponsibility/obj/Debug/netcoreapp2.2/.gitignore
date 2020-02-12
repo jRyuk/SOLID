@@ -1,0 +1,5 @@
+*.cs
+/SingleResponsibility.csproj.CoreCompileInputs.cache
+/SingleResponsibility.csprojAssemblyReference.cache
+/SingleResponsibility.AssemblyInfoInputs.cache
+/SingleResponsibility.assets.cache
